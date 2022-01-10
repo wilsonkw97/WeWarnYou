@@ -1,0 +1,88 @@
+{% extends "layouts/base.html" %}
+
+{% block title %} Dashboard {% endblock %} 
+
+<!-- Specific Page CSS goes HERE  -->
+{% block stylesheets %}{% endblock stylesheets %}
+
+{% block content %}
+
+    <div class="row">
+        <div class="col-12 mb-4">
+            <div class="card bg-yellow-100 border-0 shadow">
+                <div class="card-header d-sm-flex flex-row align-items-center flex-0">
+                    <div class="d-block mb-3 mb-sm-0">
+                        <h2 class="h6 text-gray-400 mb-0">Line Graph</h2>
+                        <h3 class="fw-extrabold mb-2">Flood tweets against timeline</h3>
+                    </div>
+                </div>
+                <div class="card-body">
+                    <img class="rounded" alt="Image placeholder" src="/static/assets/flood-trend.png">
+                    <div class="small mt-2"> 
+                        <span class="fw-normal me-2">Analysis here</span>    
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-12 col-sm-6 mb-4">
+            <div class="card border-0 shadow">
+                <div class="card-body">
+                    <div class="row d-block d-xl-flex align-items-center">
+                        <div class="col-12 px-xl-0">
+                            <div class="d-none d-sm-block">
+                                <h2 class="h6 text-gray-400 mb-0">Word Cloud</h2>
+                                <h3 class="fw-extrabold mb-2" style="border-bottom: 0.0625rem solid rgba(17, 24, 39, 0.125);
+                                padding-bottom: 20px;">Location-based</h3>
+                                <img class="rounded" alt="Image placeholder" src="/static/assets/location-wc.png" style="width: 100%;">
+                                <div class="small mt-2"> 
+                                    <span class="fw-normal me-2">Analysis here</span>    
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-12 col-sm-6 mb-4">
+            <div class="card border-0 shadow">
+                <div class="card-body">
+                    <div class="row d-block d-xl-flex align-items-center">
+                        <div class="col-12 px-xl-0">
+                            <div class="d-none d-sm-block">
+                                <h2 class="h6 text-gray-400 mb-0">Word Cloud</h2>
+                                <h3 class="fw-extrabold mb-2" style="border-bottom: 0.0625rem solid rgba(17, 24, 39, 0.125);
+                                padding-bottom: 20px;">Text-based</h3>
+                                <img class="rounded" alt="Image placeholder" src="/static/assets/location-wc.png" style="width: 100%;">
+                            </div>
+                            <div class="small mt-2"> 
+                                <span class="fw-normal me-2">Analysis here</span>    
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-12 mb-4">
+            <div class="card bg-yellow-100 border-0 shadow">
+                <div class="card-header d-sm-flex flex-row align-items-center flex-0">
+                    <div class="d-block mb-3 mb-sm-0">
+                        <h2 class="h6 text-gray-400 mb-0">Some random Visualization</h2>
+                        <h3 class="fw-extrabold mb-2">Yet to be fixed</h3>
+                    </div>
+                </div>
+                <div class="card-body">
+                    <img class="rounded" alt="Image placeholder" src="/static/assets/flood-trend.png">
+                    <div class="small mt-2"> 
+                        <span class="fw-normal me-2">Analysis here</span>    
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+{% endblock content %}
+
+<!-- Specific Page JS goes HERE  -->
+{% block javascripts %}{% endblock javascripts %}
