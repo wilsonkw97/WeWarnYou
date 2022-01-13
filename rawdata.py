@@ -41,7 +41,7 @@ query = '#daruratbanjir OR #banjir2021 OR banjir Malaysia OR flood Malaysia'
 # Intialise time period of raw data wish to be extracted
 # 10 seconds due to Twitter API limitation - must be a minimum of 10 seconds prior to the request time.
 now = datetime.utcnow() - timedelta(seconds = 10)
-start_time = (now - timedelta(days = 6)).strftime('%Y-%m-%dT%H:%M:%SZ')
+start_time = (now - timedelta(days = 1)).strftime('%Y-%m-%dT%H:%M:%SZ')
 end_time = now.strftime('%Y-%m-%dT%H:%M:%SZ')
 
 # Initalise an array to get tweets context which is returned as an array object
