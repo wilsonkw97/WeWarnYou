@@ -54,3 +54,6 @@ def register_user(request):
         form = SignUpForm()
 
     return render(request, "accounts/register.html", {"form": form, "msg": msg, "success": success})
+
+def forget_password(request):
+    return render(request, 'accounts/forgot-password.html')
