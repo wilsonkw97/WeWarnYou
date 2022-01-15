@@ -41,7 +41,13 @@ We adopt the Django website framework to build up our web application, and use t
 <!-- About WeWarnYou -->
 ## About WeWarnYou
 Upon logging in with your registered credentials, you will be redirected to this page as below.
+
 ![Home Landing Page](https://github.com/wilsonkw97/WeWarnYou/blob/main/Home%20Landing%20Page.png?raw=true)
+
+When clicking on the Dashboard tab, you will be directed to view the 4 simple visualisations on the Tweets that we gather from users on the search queries.
+
+![Dashboard Page](https://github.com/wilsonkw97/WeWarnYou/blob/main/Dashboard.png?raw=true)
+
 <!-- About WeWarnYou -->
 
 <!-- System Requirements -->
