@@ -1,9 +1,9 @@
 <h1 align="center">WeWarnYou</h1>
 <h4>The flood crisis which had started in Dec 17, 2021, has since hit 8 states in Malaysia. In certain areas, residents were hit with landslides. Having claimed 50 peoples' lives across 3 different states and displacing 125,490 citizens from their homes, this flood incident had last happened back in 1971 according to our King. The idea behind this project is to create a support system amongst the people in the country to help alert one another when another similar crisis occurs, rather than waiting for alerts by the NADMA which may come late.</h4>
 
-"Source 1 : https://reliefweb.int/report/malaysia/malaysia-floods-and-landslides-update-nadma-met-malaysia-media-echo-daily-flash-3" 
+Source 1 : https://reliefweb.int/report/malaysia/malaysia-floods-and-landslides-update-nadma-met-malaysia-media-echo-daily-flash-3 
 
-"Source 2 : https://floodlist.com/asia/malaysia-floods-january-2022" 
+Source 2 : https://floodlist.com/asia/malaysia-floods-january-2022
 
 <!-- Table of Contents -->
 # Table of Contents
