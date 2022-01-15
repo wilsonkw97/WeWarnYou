@@ -5,8 +5,6 @@
 
 "Source 2 : https://floodlist.com/asia/malaysia-floods-january-2022" 
 
-![alt text](https://github.com/wilsonkw97/WeWarnYou/blob/main/Home%20Landing%20Page.png?raw=true)
-
 <!-- Table of Contents -->
 # Table of Contents
 <li>
@@ -14,6 +12,9 @@
 </li>
 <li>
     <a href="#Website Building">Website Building</a>
+</li>
+<li>
+    <a href="#About WeWarnYou">About WeWarnYou</a>
 </li>
 <li>
     <a href="#System Requirements">System Requirements</a>
@@ -36,6 +37,12 @@
 ## Website Building
 We adopt the Django website framework to build up our web application, and use the <a href = "https://appseed.us/admin-dashboards/django-dashboard-volt">Django Volt Dashboard</a> as part of our dashboard template
 <!-- Website Building -->
+
+<!-- About WeWarnYou -->
+## About WeWarnYou
+Upon logging in with your registered credentials, you will be redirected to this page as below.
+![Home Landing Page](https://github.com/wilsonkw97/WeWarnYou/blob/main/Home%20Landing%20Page.png?raw=true)
+<!-- About WeWarnYou -->
 
 <!-- System Requirements -->
 ## System Requirements
